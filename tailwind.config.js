@@ -9,7 +9,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        good: "url('/img/background.jpg')",
+        good: "url('/img/latar1.jpg')",
         evil: "url('/img/background2.jpg')",
       },
       colors: {
