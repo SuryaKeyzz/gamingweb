@@ -756,24 +756,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/img\/background\.jpg\'\)\] {
+.bg-good {
   background-image: url('/img/background.jpg');
-}
-
-.bg-\[url\(\'img\/background\.jpg\'\)\] {
-  background-image: url('img/background.jpg');
-}
-
-.bg-\[url\(\'\.\/img\/background\.jpg\'\)\] {
-  background-image: url('./img/background.jpg');
-}
-
-.bg-\[url\(\\\"img\/background\.jpg\\\"\)\] {
-  background-image: url(\"img/background.jpg\");
-}
-
-.bg-\[url\(img\/background\.jpg\)\] {
-  background-image: url(img/background.jpg);
 }
 
 .object-contain {
@@ -851,14 +835,14 @@ video {
   font-weight: 700;
 }
 
+.text-dark {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(44 120 115 / var(--tw-text-opacity));
-}
-
-.text-slate-200 {
-  --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -967,33 +951,18 @@ body {
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 
-.dark\:bg-\[url\(\'\/img\/background2\.jpg\'\)\]:is(.dark *) {
+.dark\:bg-evil:is(.dark *) {
   background-image: url('/img/background2.jpg');
-}
-
-.dark\:bg-\[url\(\'img\/background2\.jpg\'\)\]:is(.dark *) {
-  background-image: url('img/background2.jpg');
-}
-
-.dark\:bg-\[url\(\'\.\/img\/background2\.jpg\'\)\]:is(.dark *) {
-  background-image: url('./img/background2.jpg');
-}
-
-.dark\:bg-\[url\(\\\"img\/background2\.jpg\\\"\)\]:is(.dark *) {
-  background-image: url(\"img/background2.jpg\");
-}
-
-.dark\:bg-\[url\(\"img\/background2\.jpg\"\)\]:is(.dark *) {
-  background-image: url("img/background2.jpg");
-}
-
-.dark\:bg-\[url\(img\/background2\.jpg\)\]:is(.dark *) {
-  background-image: url(img/background2.jpg);
 }
 
 .dark\:text-\[\#e15738\]:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(225 87 56 / var(--tw-text-opacity));
+}
+
+.dark\:text-slate-200:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 .dark\:text-white:is(.dark *) {
