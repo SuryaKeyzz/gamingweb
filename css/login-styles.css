@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #121212, #1f1f1f); /* Dark gradient background */
+}
+
+.login-container {
+    background-color: rgba(30, 30, 30, 0.8); /* Slightly lighter dark background */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Deep shadow for depth */
+    border: 2px solid #00BFFF; /* Bright blue border for contrast */
+    width: 100%;
+    max-width: 400px; /* Max width for form */
+    text-align: center;
+}
+
+h1 {
+    color: #00BFFF; /* Bright blue text color */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+}
+
+label {
+    color: #fff; /* White text for labels */
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #007BFF, #0056b3); /* Gradient blue */
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.05); /* Slightly scale up */
+}
